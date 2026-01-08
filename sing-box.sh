@@ -167,7 +167,7 @@ install_singbox() {
     # tar -xzvf "${work_dir}/${server_name}.tar.gz" -C "${work_dir}/" && \
     # mv "${work_dir}/sing-box-${latest_version}-linux-${ARCH}/sing-box" "${work_dir}/" && \
     # rm -rf "${work_dir}/${server_name}.tar.gz" "${work_dir}/sing-box-${latest_version}-linux-${ARCH}"
-	version="1.10.3"
+	version="1.10.5"
 
 	# 下载 sing-box 官方 release
 	curl -sLo "${work_dir}/sing-box.tar.gz" \
